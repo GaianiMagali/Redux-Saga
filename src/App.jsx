@@ -3,7 +3,7 @@ import { useSelector, connect } from 'react-redux';
 import { useHistory } from 'react-router';
 
 import { AppRoutes } from './routes/AppRoutes';
-import { Navbar } from './views/components/Navbar';
+import { Navbar } from './views/components/ui/Navbar';
 
 //{ users, getUsers }
 export const App = () => {

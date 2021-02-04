@@ -2,5 +2,6 @@ export { api } from './api-service';
 
 export {
     getUsers,
-    getTodos
+    getTodos,
+    getAlbums
 } from './sagas';

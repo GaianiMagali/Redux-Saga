@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { usersActions } from '../../../core/users';
-import { CardUsers } from '../../components/CardUsers';
+import { CardUsers } from '../../components/users/CardUsers';
+
 
 export const UsersScreen = () => {
 
@@ -22,7 +23,7 @@ export const UsersScreen = () => {
                         <CardUsers
                             key={user.id}
                             user={user}
-                        />
+                        /> 
                     )
                 }
             </div>

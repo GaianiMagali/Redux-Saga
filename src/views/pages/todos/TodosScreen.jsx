@@ -1,6 +1,6 @@
 import React from 'react';
+import { TableTodos } from '../../components/todos/TableTodos';
 
-import { TableTodos } from '../../components/TableTodos';
 
 export const TodosScreen = () => {
     

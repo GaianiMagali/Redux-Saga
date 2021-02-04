@@ -12,6 +12,6 @@ export function* watchUsersList() {
 }
 
 //Root
-export const usersSagas = [
+export const usersSaga = [
     fork(watchUsersList)
 ]

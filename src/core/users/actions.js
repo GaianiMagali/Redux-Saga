@@ -5,7 +5,6 @@ export const usersActions = {
     USER_FAILED: 'USER_FAILED',
     GET_USERS: 'GET_USERS',
 
-
     usersSuccess: data => ({
         type: usersActions.USERS_SUCCESS,
         payload: {

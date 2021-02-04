@@ -13,6 +13,12 @@ export const api = {
         return dispatch({
             url: `${API_BASE_URL}/todos`
         })
+    },
+
+    getAlbums(){
+        return dispatch({
+            url: `${API_BASE_URL}/albums`
+        })
     }
 }
 

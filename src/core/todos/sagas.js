@@ -12,7 +12,7 @@ export function* watchTodosList() {
 }
 
 //Root
-export const todosSagas = [
+export const todosSaga = [
     fork(watchTodosList)
 ]
 

@@ -2,6 +2,7 @@ import { call, put } from 'redux-saga/effects';
 import { usersRequestActions } from '../users';
 import { todosRequestActions } from '../todos';
 import { api } from './api-service';
+import { albumsRequestActions } from '../albums/actions';
 
 function* fetchEntities(apiFunction, actions, id, param) {
     try {
@@ -23,3 +24,4 @@ function* fetchEntities(apiFunction, actions, id, param) {
 export const getUsers = fetchEntities.bind(null, api.getUsers, usersRequestActions);
 export const getTodos = fetchEntities.bind(null, api.getTodos,
 todosRequestActions)
+export const getAlbums = fetchEntities.bind(null, api.getAlbums, albumsRequestActions);
